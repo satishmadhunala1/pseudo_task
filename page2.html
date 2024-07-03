@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: #5b6167;
+        font-size: 30px;
+        text-align: center;
+        cursor: pointer;
+        color: whitesmoke;
+        display: inline-block;
+
+        }
+        p{
+            
+            position: absolute;
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+        }
+        div:active > img{
+            display: block;
+        }
+
+        div:active > p{
+            display: none;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+        }
+</style>
+<body>
+    <div>
+     <p>nobitha</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2LiJEnpdWRd2974e3nmUEB1KvOnL6AdLJg&s" alt="">
+    </div>
+    <div>
+        <p>doremon</p>
+        <img src="https://i.pinimg.com/736x/e3/f3/4d/e3f34de992ae4267f272550a5935447f.jpg" alt="">
+    </div>
+    <div>
+        <p>nature</p>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/025/220/125/small/picture-a-captivating-scene-of-a-tranquil-lake-at-sunset-ai-generative-photo.jpg" alt="">
+    </div>
+    <div>
+        <p>kid</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ZP9zTf75vBmTD9BJWQmf3DjamXGuvzw44w&s" alt="">
+    </div>
+</body>
+</html>
